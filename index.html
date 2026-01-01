@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <!-- Link to CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Navbar -->
+  <header>
+    <h1>Navneet Sharma</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a> <!-- Added -->
+      <a href="#educations">Education</a>
+      <a href="#contact">Contact</a>
+      <a href="#resume">Resume</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <h2>Hello, I'm Navneet Sharma 👋</h2>
+      <p>I'm a passionate <strong>DevOps Engineer</strong> with hands-on experience in automating, monitoring, and optimizing development and deployment pipelines. Skilled in CCNA, Linux (RHEL,CentOS), Linux System Administration, AWS, Ansible, Git & GitHub, Docker (In Progress), Jenkins (In Progress), CI/CD (In Progress), Kubernetes (In Progress), Python (In Progress), SQL (In Progress), Nagios (In Progress), Grafana (In Progress), Terraform (In Progress) ."</p>
+      <a href="#contact" class="btn">Hire Me</a>
+    </div>
+    <img src="ns.png" alt="Profile Picture" />
+  </section>
+
+  <!-- About -->
+  <section class="about" id="about">
+    <h2>About Me</h2>
+    <p>Completed Master of Computer Application, and Currently Pursuing Diploma in Cloud Computing & DevOps.I am excited to launch my career in the IT industry and contribute to a team that values creativity, collaboration, and excellence. I have successfully completed through practical labs and projects with hands-on experience.
+    I am currently enhancing my skills in Docker, Jenkins, Kubernetes, Git & GitHub, Python, SQL, Nagios, Grafana, Terraform, and Maven to build a strong foundation in DevOps.</p>
+  </section>
+
+  <!-- Education -->
+  <section class="educations" id="educations">
+    <h2>Education</h2>
+    <div class="education-grid">
+      <div class="education">
+        <h3>Diploma in Cloud Computing & DevOps</h3>
+        <p>DUCAT IT and AI training center Noida</p>
+      </div>
+      <div class="education">
+        <h3>MCA</h3>
+        <p>Hindustan Institute of Management & Computer Studies</p>
+      </div>
+      <div class="education">
+        <h3>B.ED</h3>
+        <p>Dr. Bhimrao Ambedkar University Agra</p>
+      </div>
+      <div class="education">
+        <h3>B.SC</h3>
+        <p>Dr. Bhimrao Ambedkar University Agra</p>
+      </div>
+    </div>
+  </section>
+   <!-- Skills -->
+  <section class="skills" id="skills">
+    <h2>My Skills</h2>
+    <div class="skill-box">
+      <div class="skill">CCNA</div>
+      <div class="skill">Linux (RHEL, CentOS)</div>
+      <div class="skill">AWS Cloud</div>
+      <div class="skill">Ansible</div>
+      <div class="skill">Git & GitHub</div>
+      <div class="skill">DevOps Basics</div>
+      <div class="skill">Docker</div>
+      <div class="skill">In progress - Jenkins, CI/CD, Kubernetes, Python, SQL, Nagios, Grafana, Terraform.</div>
+    </div>
+  </section>
+
+  <!-- ⭐ Experience Section (Added) -->
+  <section class="experience" id="experience">
+    <h2>Experience</h2>
+    <div class="experience-box">
+
+      <div class="exp-item">
+        <h3>Cloud & DevOps Trainee</h3>
+        <p><strong>DUCAT Noida</strong> • June 2025 – Present</p>
+        <ul>
+          <li>Hands-on training in Networking, Linux, AWS, Git, GitHub, SQL, Python, Docker, Jenkins, Ansible, CI/CD, Terraform, Grafana, Nagios and Kubernetes.</li>
+          <li>Worked on real-time lab projects. </li>
+        </ul>
+      </div>
+
+      <div class="exp-item">
+        <h3>Networking & Linux </h3>
+        <p><strong>AVIS e Solutions Pvt Ltd</strong> • October 2025 – Present</p>
+        <p><strong>“Software Support Engineer – with expertise in Linux and Networking”</strong></p>
+        <ul>
+          <li>software solutions company</li>
+          <li>Contaque™ is the flagship product of AVIS e Solutions Pvt. Ltd.</li>
+          <li>Set up and managed Linux-based servers in virtual environments.</li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Resume Section -->
+  <section class="resume" id="resume">
+    <h2>Resume</h2>
+    <p>Click below to download or view my resume.</p>
+    <a href="Navneet-resume.pdf" target="_blank" class="btn">Download Resume</a>
+  </section>
+
+  <!-- Contact -->
+  <section class="contact" id="contact">
+    <h2>Get In Touch</h2>
+    <p>Email: <a href="mailto:navneetsharma60761@gmail.com">navneetsharma60761@gmail.com</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/navneet-sharma-530901326" target="_blank">Connect with me</a></p>
+    <p>Phone: <a href="">+91 8755517312</a></p>
+    <p>Home Location: Agra</p>
+    <p>Current Location: Noida</p>
+  </section>
+  <form action="https://formsubmit.co/navneetsharma60761@gmail.com" method="POST" class="contact-form">
+    
+    <!-- Disable CAPTCHA -->
+    <input type="hidden" name="_captcha" value="false">
+
+    <!-- Redirect to your site after submit (change if needed) -->
+    <input type="hidden" name="_next" value="https://sharmanavneet.netlify.app/">
+
+    <label for="name">Your Name*</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="message">Your Message*</label>
+    <textarea id="message" name="message" rows="5" required></textarea>
+
+    <button type="submit">Send</button>
+</form>
+
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Navneet Sharma | Thanks to all</p>
+  </footer>
+</body>
+</html>
+
